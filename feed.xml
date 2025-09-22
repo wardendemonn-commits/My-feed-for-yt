@@ -33,6 +33,9 @@
       ]]></description>
 
       <!-- Replace with real mp3 -->
+         <enclosure url="https://wardendemon-commits.github.io/My-feed-for-yt/APP5175898-D5BD040C-D799-4E55-B541-282....mp3" length="12345678" type="audio/mpeg"/>
+<itunes:image href="https://wardendemon-commits.github.io/My-feed-for-yt/683a027fc7796_APP5175898-6D4B626E-A1....jpg"/>
+
       <enclosure url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" length="960000000" type="audio/mpeg"/>
       <itunes:duration>16:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
