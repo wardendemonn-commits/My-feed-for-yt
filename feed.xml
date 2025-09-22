@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-     xmlns:media="http://search.yahoo.com/mrss/">
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
   <channel>
     <!-- PODCAST INFO -->
@@ -21,6 +22,10 @@
     </itunes:owner>
     <itunes:image href="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
     <itunes:category text="Society & Culture"/>
+    <!-- YouTube Podcast Specific -->
+    <podcast:locked owner="contact@interviewwithbobstine.com">no</podcast:locked>
+    <podcast:guid>urn:uuid:interviewwithbobstine-podcast</podcast:guid>
+    <podcast:funding url="https://wardendemon-commits.github.io/podcast-feed/support">Support this podcast</podcast:funding>
 
     <!-- EPISODE 1 -->
     <item>
@@ -29,16 +34,16 @@
       <guid isPermaLink="false">interviewwithbobstine-ep1-2025-05-30</guid>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
       <description><![CDATA[
-        This StoryCorps interview was recorded May 30, 2025. Participants include two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—interviewing Bob Stine (87, nearly 88), a veteran from Freedom, WI, about his life and experiences :contentReference[oaicite:0]{index=0}.
+        This StoryCorps interview was recorded May 30, 2025. Participants include two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—interviewing Bob Stine (87, nearly 88), a veteran from Freedom, WI, about his life and service.
       ]]></description>
-
-      <!-- Replace with real mp3 -->
-         <enclosure url="https://wardendemon-commits.github.io/My-feed-for-yt/APP5175898-D5BD040C-D799-4E55-B541-282....mp3" length="12345678" type="audio/mpeg"/>
-<itunes:image href="https://wardendemon-commits.github.io/My-feed-for-yt/683a027fc7796_APP5175898-6D4B626E-A1....jpg"/>
-
       <enclosure url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" length="960000000" type="audio/mpeg"/>
+      <itunes:image href="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
       <itunes:duration>16:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
+      <!-- YouTube Podcast Specific (media) -->
+      <media:content url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" type="audio/mpeg" duration="963"/>
+      <media:thumbnail url="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
+      <podcast:chapters url="https://wardendemon-commits.github.io/podcast-feed/ep1.chapters.json" type="application/json"/>
     </item>
 
   </channel>
