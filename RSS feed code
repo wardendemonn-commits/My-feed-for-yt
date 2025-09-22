@@ -9,12 +9,34 @@
     <link>https://wardendemon-commits.github.io/podcast-feed/</link>
     <language>en-us</language>
     <copyright>© 2025 Interview with Bob Stine Podcast</copyright>
-    <description>Interview with Bob Stine – real stories, raw conversations, and honest takes.</description>
+    <description>Recording of Bob Stine, a WWII-era veteran from Freedom, WI, as interviewed by two middle-school students on May 30, 2025.</description>
 
     <!-- iTunes / YouTube Podcast metadata -->
     <itunes:author>Interview with Bob Stine Team</itunes:author>
-    <itunes:summary>Welcome to Interview with Bob Stine – a podcast where we explore new beginnings, fresh takes, and powerful discussions.</itunes:summary>
+    <itunes:summary>This 16:03 recording captures Bob Stine (age 87) in conversation with two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—about his life and service.</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Interview with Bob Stine Podcast</itunes:name>
-      <itu
+      <itunes:email>contact@interviewwithbobstine.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
+    <itunes:category text="Society & Culture"/>
+
+    <!-- EPISODE 1 -->
+    <item>
+      <title>Interview with Bob Stine</title>
+      <link>https://wardendemon-commits.github.io/podcast-feed/ep1</link>
+      <guid isPermaLink="false">interviewwithbobstine-ep1-2025-05-30</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <description><![CDATA[
+        This StoryCorps interview was recorded May 30, 2025. Participants include two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—interviewing Bob Stine (87, nearly 88), a veteran from Freedom, WI, about his life and experiences :contentReference[oaicite:0]{index=0}.
+      ]]></description>
+
+      <!-- Replace with real mp3 -->
+      <enclosure url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" length="960000000" type="audio/mpeg"/>
+      <itunes:duration>16:03</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
+
+  </channel>
+</rss>
