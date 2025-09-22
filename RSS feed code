@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:media="http://search.yahoo.com/mrss/">
+
+  <channel>
+    <!-- PODCAST INFO -->
+    <title>Interview with Bob Stine</title>
+    <link>https://wardendemon-commits.github.io/podcast-feed/</link>
+    <language>en-us</language>
+    <copyright>© 2025 Interview with Bob Stine Podcast</copyright>
+    <description>Interview with Bob Stine – real stories, raw conversations, and honest takes.</description>
+
+    <!-- iTunes / YouTube Podcast metadata -->
+    <itunes:author>Interview with Bob Stine Team</itunes:author>
+    <itunes:summary>Welcome to Interview with Bob Stine – a podcast where we explore new beginnings, fresh takes, and powerful discussions.</itunes:summary>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Interview with Bob Stine Podcast</itunes:name>
+      <itu
