@@ -5,45 +5,38 @@
      xmlns:podcast="https://podcastindex.org/namespace/1.0">
 
   <channel>
-    <!-- PODCAST INFO -->
     <title>Interview with Bob Stine</title>
-    <link>https://wardendemon-commits.github.io/podcast-feed/</link>
+    <link>https://wardendemon-commits.github.io/My-feed-for-yt/</link>
     <language>en-us</language>
     <copyright>© 2025 Interview with Bob Stine Podcast</copyright>
     <description>Recording of Bob Stine, a WWII-era veteran from Freedom, WI, as interviewed by two middle-school students on May 30, 2025.</description>
 
-    <!-- iTunes / YouTube Podcast metadata -->
     <itunes:author>Interview with Bob Stine Team</itunes:author>
-    <itunes:summary>This 16:03 recording captures Bob Stine (age 87) in conversation with two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—about his life and service.</itunes:summary>
+    <itunes:summary>This 16:03 recording captures Bob Stine (age 87) in conversation with two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15).</itunes:summary>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Interview with Bob Stine Podcast</itunes:name>
       <itunes:email>contact@interviewwithbobstine.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
+    <itunes:image href="https://wardendemon-commits.github.io/My-feed-for-yt/cover.jpg"/>
     <itunes:category text="Society & Culture"/>
-    <!-- YouTube Podcast Specific -->
     <podcast:locked owner="contact@interviewwithbobstine.com">no</podcast:locked>
     <podcast:guid>urn:uuid:interviewwithbobstine-podcast</podcast:guid>
-    <podcast:funding url="https://wardendemon-commits.github.io/podcast-feed/support">Support this podcast</podcast:funding>
 
-    <!-- EPISODE 1 -->
     <item>
       <title>Interview with Bob Stine</title>
-      <link>https://wardendemon-commits.github.io/podcast-feed/ep1</link>
+      <link>https://wardendemon-commits.github.io/My-feed-for-yt/ep1.mp3</link>
       <guid isPermaLink="false">interviewwithbobstine-ep1-2025-05-30</guid>
       <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
       <description><![CDATA[
         This StoryCorps interview was recorded May 30, 2025. Participants include two 8th graders—Matthew Griesbach (14) and Elias Blaesing (15)—interviewing Bob Stine (87, nearly 88), a veteran from Freedom, WI, about his life and service.
       ]]></description>
-      <enclosure url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" length="960000000" type="audio/mpeg"/>
-      <itunes:image href="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
+      <enclosure url="https://wardendemon-commits.github.io/My-feed-for-yt/ep1.mp3" length="960000000" type="audio/mpeg"/>
+      <itunes:image href="https://wardendemon-commits.github.io/My-feed-for-yt/cover.jpg"/>
       <itunes:duration>16:03</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
-      <!-- YouTube Podcast Specific (media) -->
-      <media:content url="https://wardendemon-commits.github.io/podcast-feed/ep1.mp3" type="audio/mpeg" duration="963"/>
-      <media:thumbnail url="https://wardendemon-commits.github.io/podcast-feed/cover.jpg"/>
-      <podcast:chapters url="https://wardendemon-commits.github.io/podcast-feed/ep1.chapters.json" type="application/json"/>
+      <media:content url="https://wardendemon-commits.github.io/My-feed-for-yt/ep1.mp3" type="audio/mpeg" duration="963"/>
+      <media:thumbnail url="https://wardendemon-commits.github.io/My-feed-for-yt/cover.jpg"/>
     </item>
 
   </channel>
